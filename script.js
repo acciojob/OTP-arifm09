@@ -1,4 +1,4 @@
-let codeContainer = document.getElementById("code-container");
+let codeContainer = document.querySelector(".code-container");
 let codes = document.querySelectorAll(".code");
 
 

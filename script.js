@@ -4,6 +4,7 @@ let codes = document.querySelectorAll(".code");
 
 codes.forEach( (code,index) =>{
  code.addEventListener('input', () => {
+	   code.classList.add('focused');
         if (index < 5 && code.value.length === 1) {
             codes[index + 1].focus();
         }
